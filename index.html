@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/media/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/media/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/media/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/media/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/media/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/media/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/media/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/media/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/media/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Nukang</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="wrapper">
+            <div class="contain-nav">
+                <div class="logo-nav">
+                    <a href=""><img src="assets/media/logo/logo.svg" alt="logo nukang" class="logo-top">
+                    </a>
+                </div>
+                <div class="menu">
+                    <div class="box-menu">
+                        <a onclick="menuAlur()">Alur Kerja</a>
+                        <a onclick="menuKontak()">Hubungi Kami</a>
+                    </div>
+                </div>
+                <div class="hamburger" onclick="hamburger()">
+                    <div class="box-hamburger">
+                        <div class="line">&nbsp;</div>
+                        <div class="line2">&nbsp;</div>
+                        <div class="line">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-mobile" onclick="closeHamburger()">
+        <img src="assets/media/logo/logo.svg" alt="" class="logo-top">
+        <div class="item-menu-mobile margtop2">
+            <a onclick="menuAlur()" class="margtop1">Alur Kerja</a>
+            <a onclick="menuKontak()" class="margtop2">Hubungi Kami</a>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="contain-hero">
+            <div class="box-hero padding1">
+                <h1 class="headline italic">Wujudkan Impian</h1>
+                <p class="margtop1">Nukang hadir untuk mewujudkan bangunan impian.<br>Kami adalah kontraktor yang menyediakan layanan<br>bangun baru dan renovasi untuk memenuhi kebutuhan Anda.</p>
+            </div>
+            <div class="box-hero imghero">&nbsp;</div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="wrapper">
+            <h2 class="headline label">Kontraktor<br>Bangun Baru dan Renovasi</h2>
+            <div class="contain-about margtop2">
+                <div class="box-about">
+                    <h3 class="headline italic">Komunikatif</h3>
+                    <p class="margtop1">Kami siap mendengarkan cerita bangunan impian anda. Dan kami akan membantu mewujudkannya. Kami siap merespon dengan cepat untuk menjadi solusi terbaik untuk anda.</p>
+                </div>
+                <div class="box-about">
+                    <h3 class="headline italic">Profesional</h3>
+                    <p class="margtop1">Dengan tim dari berbagai latar belakang keahlian dan pengalaman yang dimiliki, kami berkomitmen untuk mewujudkan bangunan impian anda. Kami mengedepankan tepat kerja untuk mencapai target yang ditentukan.</p>
+                </div>
+                <div class="box-about">
+                    <h3 class="headline italic">Transparan</h3>
+                    <p class="margtop1">Perhitungan biaya pembangunan sesuai dengan spesifikasi material yang digunakan. Siap menyesuaikan anggaran sesuai dengan kebutuhan yang anda inginkan.</p>
+                </div>
+            </div>
+            <p class="aligncenter margtop2">Nukang adalah badan usaha yang bergerak di bidang konstruksi. Kami melayani jasa bangun baru dan renovasi. Siap membantu mewujudkan bangunan impian anda. Mulai dari design, perencanaan, pembangunan, perbaikan dan perawatan.<br><br>Kami melayani pembangunan baru rumah tinggal, rumah massal, renovasi sebagian dan keseluruhan, interior, fasad, ruko, kontrakkan, kosan, kusen alumunium, railing, installasi listrik, plumbing dan lainnya.<br><br>Kami selalu membuka diri untuk terus belajar seiring dengan perkembangan jaman agar mampu beradaptasi dengan teknik, alat kerja dan material yang terus berkembang.</p>
+            <h3 class="headline italic aligncenter margtop2">Visi :</h3>
+            <p class="aligncenter margtop1">Menjadi mitra konstruksi yang amanah dengan mengedepankan kualitas hasil<br>dan profesionalitas dalam mewujudkan bangunan impian klien.</p>
+            <h3 class="headline italic aligncenter margtop2">Misi :</h3>
+            <div class="box-vismis margtop1">
+                <ul>
+                    <li>Menjadi solusi dari keinginan dan kebutuhan klien<br><br></li>
+                    <li>Memberdayakan tim yang profesional dan sesuai dengan bidang pekerjaan<br><br></li>
+                    <li>Memberikan pendekatan efektif dan efisien dari tahap awal hingga akhir<br><br></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="alur">
+        <div id="scrollAlur">&nbsp;</div>
+        <div class="contain-alur">
+            <div class="box-alur imgalur">&nbsp;</div>
+            <div class="box-alur">
+                <h2 class="headline label margtop1-mobile">Alur Kerja</h2>
+                <div class="content-alur">
+                    <h3 class="headline italic">1. Survey</h3>
+                    <p class="margtop1">Anda dapat menghungi kami melalui whatsapp / email. Kami akan segera merespon dan membuat kesepakatan untuk melakukan survey lokasi.</p>
+                    <h3 class="headline italic margtop2">2. Perencanaan</h3>
+                    <p class="margtop1">Kami akan membuat dokumentasi hasil survey dalam bentuk sketsa dan dilanjutkan design model. Setelah design disetujui akan dilanjutkan ke tahap rencana anggaran biaya sesuai skup pekerjaan. Untuk memenuhi kewajiban dan hak kedua belah pihak, akan dibuat perjanjian kontrak kerja.</p>
+                    <h3 class="headline italic margtop2">3. Pembayaran Bertahap</h3>
+                    <p class="margtop1">Pembayaran dapat dilakukan secara bertahap sesuai kesepakatan yang telah disepakati.</p>
+                    <h3 class="headline italic margtop2">4. Pelaksanaan Pekerjaan</h3>
+                    <p class="margtop1">Pekerjaan akan dimulai setelah kesepakatan mulai kerja terpenuhi. Laporan berdasarkan capaian pekerjaan dan jadwal yang ditentukan bersama. Setelah pekerjaan selesai dilakukan, dilanjutkan ke tahap serah terima hasil kerja yang telah disepakati bersama.</p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="galeri">
+        <h2 class="headline label">Galeri</h2>
+        <div class="contain-galeri margtop1">
+            <div class="frame">
+                <div class="foto img1">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img2">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img3">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img4">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img5">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img6">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img7">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img8">&nbsp;</div>
+            </div>
+            <div class="frame">
+                <div class="foto img9">&nbsp;</div>
+            </div>
+        </div>
+        <p class="italic aligncenter margtop1"><span>&larr;</span> geser <span>&rarr;</span></p>
+    </div>
+    <div class="banner-bottom">
+        <h1 class="headline italic aligncenter">Mewujudkan bangunan impian<br>merupakan sebuah Proses,<br>wujudkan bersama kami.</h1>
+    </div>
+    <div class="footer">
+        <div id="scrollKontak">&nbsp;</div>
+        <div class="wrapper">
+            <h2 class="headline label white">Hubungi Kami</h2>
+            <div class="logo-footer margtop2">
+                <a href=""><img src="assets/media/logo/logo.svg" alt="logo nukang" class="logo-bottom">
+                </a>
+            </div>
+            <div class="contain-footer">
+                <p class="aligncenter margtop2">Whatsapp : <a href="https://wa.me/6287886169279?text=Hallo%20Tim%20Nukang" target="_blank">0878 86169279</a></p>
+                <p class="aligncenter margtop1">Email : <a href="mailto:rprakosoh@gmail.com" target="_blank">rprakosoh@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/common.js"></script>
+</body>
+</html>
