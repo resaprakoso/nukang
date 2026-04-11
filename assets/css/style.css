@@ -469,7 +469,7 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 768px) and (orientation: portrait){
     .contain-hero{
         -ms-grid-columns: unset;
             grid-template-columns: unset;
